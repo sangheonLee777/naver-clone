@@ -1,0 +1,110 @@
+/* COMMON */
+.divider {
+  width: 1px;
+  height: 13px;
+  background-color: #E4E8EB;
+}
+
+/* HEADER */
+header {
+  width: 1130px;
+  padding-top: 10px;
+  margin: auto;
+}
+
+.header-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 12px;
+}
+
+.header-links .divider {
+  margin: 0 10px;
+}
+
+.header-links a:nth-child(3) {
+  font-weight: 800;
+  color: #C0C4C9;
+}
+
+.header-links a:last-child {
+  margin-left: 10px;
+  font-weight: 600;
+  color: #C0C4C9;
+}
+
+.header-search__logo {
+  width: 420px;
+  height: 160px;
+}
+
+.header-search {
+  margin-top: -20px;
+  margin-left: -100px;
+  display: flex;
+  align-items: center;
+}
+
+
+.header-search form {
+  width: 585px;
+  height: 50px;
+  border: 2px solid #AAD7F1;
+  display: flex;
+  align-items: center;
+  margin-left: -70px;
+  position: relative;
+}
+
+
+.header-search input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 18px;
+
+}
+
+
+.header-search button {
+  height: 100%;
+  width: 56px;
+  background-color: #AAD7F1;
+  border: none;
+  cursor: pointer;
+}
+
+.header-search .fa-keyboard {
+  position: absolute;
+  right: 90px;
+  color: #80868B;
+}
+
+.header-search .fa-angle-down {
+  color: #02CF5E;
+  position: absolute;
+  right: 65px;
+}
+
+.header-search .fa-magnifying-glass {
+  font-size: 25px;
+  color: white;
+}
+
+.header-underbox {
+  border-top: 1px solid #E0E4E7;
+  border-bottom: 1px solid #E0E4E7;
+  display: flex;
+  height: 54px;
+  width: 100%;
+}
+
+.header-column {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+}
