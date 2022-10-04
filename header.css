@@ -115,7 +115,6 @@ header {
   height: 54px;
   width: 100%;
   flex-grow: 1;
-  /* background-color: orange; */
 }
 
 .header-column {
@@ -292,8 +291,24 @@ main {
   color: #3E63BF;
 }
 
+.main-column__left .news-square {
+  margin-top: 10px;
+  /* background-color: red; */
+  height: 260px;
+}
 
+.main-column__left .news-square ul {
+  display: flex;
+}
 
+.main-column__left .news-square li {
+  width: 125px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #D9E1E5;
+}
 
 /* MAIN RIGHT */
 
